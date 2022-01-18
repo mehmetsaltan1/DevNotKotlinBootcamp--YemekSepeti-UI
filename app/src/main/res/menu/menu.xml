@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+android:id="@+id/ic_siparis"
+    android:icon="@drawable/cutlery"
+    android:title="Sipariş"
+/>
+    <item
+        android:id="@+id/ic_search"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Ara"
+        />
+    <item
+        android:id="@+id/ic_basket"
+        android:icon="@drawable/shopping"
+        android:title="Sepetim"
+        />
+    <item
+        android:id="@+id/ic_help"
+        android:icon="@drawable/comment"
+        android:title="Canlı Yardım"
+        />
+    <item
+        android:id="@+id/ic_myaccount"
+        android:icon="@drawable/ic_baseline_menu"
+        android:title="Hesabım"
+        />
+</menu>

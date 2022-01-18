@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
@@ -207,7 +218,7 @@
         app:chipBackgroundColor="#FFFFFF"
         app:chipCornerRadius="4dp"
         app:chipEndPadding="0dp"
-        app:chipIcon="@drawable/colaicon"
+        app:chipIcon="@drawable/vodafoneicon"
         app:chipStartPadding="4dp"
         app:chipStrokeColor="#EAEAEA"
         app:chipStrokeWidth="1dp"
@@ -350,9 +361,10 @@
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip18"
-        android:layout_width="32dp"
-        android:layout_height="25dp"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
         android:layout_marginStart="165dp"
+        android:layout_marginTop="1dp"
         app:chipBackgroundColor="#E8E8E8"
         app:chipSurfaceColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/chip6"
@@ -368,6 +380,19 @@
         app:chipSurfaceColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/chip6"
         app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#00D07A"
+        android:text="RESTORANLARI LİSTELE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip13" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -32,7 +32,9 @@
             android:text="Yemeksepeti "
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="9dp" />
     </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -217,10 +219,10 @@
         app:textStartPadding="4dp" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
         android:layout_width="0dp"
         android:layout_height="140dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -233,6 +235,139 @@
             android:layout_height="match_parent"
             app:srcCompat="@drawable/indirimyagmuru" />
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/chip8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip8"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="30dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip10"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="45dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip11"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip12"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="75dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip13"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="90dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip14"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="105dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip15"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip16"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="135dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip17"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="150dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip18"
+        android:layout_width="32dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="165dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip19"
+        android:layout_width="28dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="2dp"
+        app:chipBackgroundColor="#E8E8E8"
+        app:chipSurfaceColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
